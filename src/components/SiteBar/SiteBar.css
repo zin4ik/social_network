@@ -1,0 +1,40 @@
+.siteBar{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-color: #089baf;
+    padding: 20px 10px;
+    flex-basis: 22%;
+    min-width: 20%;
+    max-width: 25%;
+}
+
+.siteBar__nav{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.siteBar__list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.siteBar__link {
+    text-decoration: none;
+    color:#000000;
+    margin-right: 10px;
+    transition: all 0.5s;
+   
+}
+.siteBar__link:hover{
+    color: #ccc;
+    
+}
+.siteBar__item{
+    margin-top:10px; 
+}
+.siteBar__item:first-child{
+    margin-top:0px; 
+}
