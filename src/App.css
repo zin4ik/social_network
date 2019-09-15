@@ -6,10 +6,25 @@
   margin: 0 auto;
   width: 1124px;
 }
-.SiteBar__Main{
+.wrapp__content{
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+}
+.content__siteBar{
+  min-height: 100vh;
+  background-color: #089baf;
+  padding: 20px 10px;
+  flex-basis: 22%;
+  min-width: 20%;
+  max-width: 25%;
+}
+.content__main{
+  padding: 10px;
+  border: 1px solid black;
+  flex-basis: 77%;
+  min-width: 70%;
+  max-width: 78%;
 }
 
 

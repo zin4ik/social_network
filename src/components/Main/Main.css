@@ -3,11 +3,11 @@
     flex-flow: column nowrap;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 10px;
+    /* padding: 10px;
     border: 1px solid black;
     flex-basis: 77%;
     min-width: 70%;
-    max-width: 78%;
+    max-width: 78%; */
 }
 .main__baner{
     width: 100%;
