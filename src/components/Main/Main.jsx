@@ -1,5 +1,8 @@
 import React from 'react';
 import './Main.css';
+import Post from './Post/Post';
+
+
 
 const Main = ()=>{
     return (
@@ -10,7 +13,7 @@ const Main = ()=>{
 <div className="main__content">
 
 </div>
-<div className="main__post"></div>
+<Post posts="hello" likes="5"/>
         </main>
     )
 }
