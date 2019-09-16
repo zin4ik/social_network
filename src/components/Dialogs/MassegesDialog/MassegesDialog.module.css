@@ -1,0 +1,7 @@
+.MassegesDialog{
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 70%;
+    flex-basis: 68%;
+
+}

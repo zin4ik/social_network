@@ -1,14 +1,16 @@
 import React from "react";
 import s from "./Dialogs.module.css";
+import UsersDialog from "./UsersDialog/UsersDialog";
+import MassegesDialog from "./MassegesDialog/MassegesDialog";
 
 
-const Dialogs = (props) => {
+const Dialogs = () => {
     return (
         <main className={s.dialogs}>
             <h2 className={s.h2}>Бесіди</h2>
             <div className={s.dialogsBlock}>
-                <section>1</section>
-                <section>2</section>
+                <UsersDialog />
+                <MassegesDialog />
             </div>
 
         </main>
