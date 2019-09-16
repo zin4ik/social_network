@@ -9,7 +9,7 @@ const Nav = ()=>{
                 <button className="btn nav__btn">Пошук</button>
             </div>
             <ul className="nav__list">
-                <li className="nav__item"><a href="#" className="link nav__link">Власна сторінка</a ></li>
+                <li className="nav__item"><a href="#" className="link nav__link">Моя сторінка</a ></li>
                 <li className="nav__item"><a href="#" className="link nav__link">Стіна новин</a ></li>
                 <li className="nav__item"><a href="#" className="link nav__link">Налаштування</a ></li>
                 <li className="nav__item"><a href="#" className="link nav__link">Вийти</a ></li>

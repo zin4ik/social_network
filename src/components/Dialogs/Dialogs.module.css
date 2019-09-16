@@ -1,0 +1,15 @@
+.dialogs{
+display: flex;
+flex-flow: column nowrap;
+align-items: flex-start;
+padding: 5px;
+border: 1px solid  #ccc;        
+}
+.h2{
+    color: black;
+    border-bottom:1px solid #ccc;
+    width: 90%;
+}
+.dialogsBlock{
+    display: flex;
+}

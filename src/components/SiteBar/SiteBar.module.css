@@ -5,31 +5,35 @@
     
 }
 
-.siteBar__nav{
+.nav{
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
-.siteBar__list{
+.list{
     list-style: none;
     margin: 0;
     padding: 0;
     
 }
-.siteBar__link {
+.link {
     text-decoration: none;
     color:#000000;
     margin-right: 10px;
     transition: all 0.5s;
+    padding: 5px;
    
 }
-.siteBar__link:hover{
+.link:hover{
     color: #ccc;
     
 }
-.siteBar__item{
+.active{
+    color: #ccc;
+}
+.item{
     margin-top:10px; 
 }
-.siteBar__item:first-child{
+.item:first-child{
     margin-top:0px; 
 }

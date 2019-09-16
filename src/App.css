@@ -13,18 +13,19 @@
 }
 .content__siteBar{
   min-height: 100vh;
-  background-color: #089baf;
+  /* background-color: #089baf; */
+  background-color:#303030;
   padding: 20px 10px;
-  flex-basis: 22%;
+  flex-basis: 30%;
   min-width: 20%;
-  max-width: 25%;
+  max-width: 30%;
 }
 .content__main{
   padding: 10px;
   border: 1px solid black;
-  flex-basis: 77%;
-  min-width: 70%;
-  max-width: 78%;
+  flex-basis: 70%;
+  min-width: 65%;
+  max-width: 70%;
 }
 
 
