@@ -1,22 +1,23 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
 import './SiteBar.css';
 
 
-const SiteBar = ()=>{
+const SiteBar = () => {
     return (
         <aside className="siteBar">
             <nav className="siteBar__nav">
                 <ul className="siteBar__list">
                     <li className="siteBar__item">
-                        <a href="/myProfil" className="siteBar__link link">Мій профиль</a></li>
+                        <NavLink to="/myProfil" className="siteBar__link link">Мій профиль</NavLink></li>
                     <li className="siteBar__item">
-                        <a href="/dialogs" className="siteBar__link link">Повідомлення</a></li>
+                        <NavLink to="/dialogs" className="siteBar__link link">Повідомлення</NavLink></li>
                     <li className="siteBar__item">
-                    <a href="/news" className="siteBar__link link">Новини</a></li>
+                        <NavLink to="/news" className="siteBar__link link">Новини</NavLink></li>
                     <li className="siteBar__item">
-                        <a href="#" className="siteBar__link link">Моя діаспора</a></li>
+                        <NavLink to="#" className="siteBar__link link">Моя діаспора</NavLink></li>
                     <li className="siteBar__item">
-                        <a href="#" className="siteBar__link link">АкунаМатата</a></li> 
+                        <NavLink to="#" className="siteBar__link link">АкунаМатата</NavLink></li>
                 </ul>
             </nav>
             <div className="siteBar__none"></div>
