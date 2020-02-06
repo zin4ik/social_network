@@ -1,15 +1,14 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
 import s from './UsersDialog.module.css';
 
-const UsersDialog =()=>{
+
+const UsersDialog =(props)=>{
     return (
         <section className={s.UsersDialog}>
             <ul className={s.list}>
                 <li className={s.item}>
-                    <a href="#" className={s.link}>Vanilnil js</a>
-                </li>
-                <li className={s.item}>
-                    <a href="#" className={s.link}>ES6</a>
+                    <NavLink to={'/dialogs/'+props.id} className={s.link}>{props.name}</NavLink>
                 </li>
             </ul>
         </section>

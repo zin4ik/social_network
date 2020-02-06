@@ -1,7 +1,12 @@
-.MassegesDialog{
+/* .MassegesDialog{
     display: flex;
     flex-flow: column nowrap;
     max-width: 70%;
     flex-basis: 68%;
 
+} */
+.textMasseg{
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
 }

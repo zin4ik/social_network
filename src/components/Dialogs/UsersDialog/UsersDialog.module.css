@@ -1,12 +1,6 @@
-.UsersDialog{
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: flex-start;
-    justify-content: flex-start;
-    min-width: 30%;
-    flex-basis: 30%;
-    border-right: 1px solid #ccc;
-}
+/* .UsersDialog{
+  
+} */
 .link{
     text-decoration: none;
     color:#000;
